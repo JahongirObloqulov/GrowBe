@@ -18,14 +18,6 @@
     display: block;
 }
 
-.link {
-    text-decoration: none;
-}
-
-.list {
-    list-style: none;
-}
-
 .first {
     order: -1;
 }
