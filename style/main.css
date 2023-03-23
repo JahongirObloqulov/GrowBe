@@ -111,3 +111,9 @@
     margin-right: 15px;
 }
 
+.brand-list {
+    display: flex;
+    column-gap: 48px;
+    align-items: center;
+    justify-content: center;
+}
