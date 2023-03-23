@@ -413,6 +413,8 @@
 }
 
 .plans-card:hover {
+    width: 370px;
+    height: 574px;
     box-shadow: 15px 25px 70px -5px rgba(0, 0, 0, 0.07);
 }
 
