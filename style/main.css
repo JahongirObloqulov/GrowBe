@@ -175,16 +175,14 @@
 }
 
 .feature-card {
-    width: 310px;
-    height: 226px;
+    width: 370px;
+    height: 291px;
+    padding: 40px 0 25px 30px;
     margin-right: 60px;
 }
 
 .feature-card:hover {
     box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.06);
-    width: 370px;
-    height: 291px;
-    padding: 40px 0 25px 30px;
 }
 
 .feature-card img {
@@ -212,4 +210,178 @@
     font-size: 11px;
     line-height: 150%;
     color: #000000;
+}
+
+#services {
+    text-align: center;
+    background-color: #FAFAFA;
+}
+
+#services .row {
+    text-align: center;
+    padding: 92px 0 100px 0;
+    column-gap: 30px;
+}
+
+.services-title {
+    margin-bottom: 19px;
+}
+
+.services-desc {
+    margin-bottom: 55px;
+}
+
+.services-card {
+    width: 370px;
+    height: 549px;
+
+}
+
+.services-card:hover {
+    box-shadow: 15px 25px 60px -5px rgba(0, 0, 0, 0.1);
+}
+
+.services-card img {
+    width: 370px;
+    height: 270px;
+    margin-bottom: 25px;
+}
+
+.services-card h2 {
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+    margin-bottom: 22px;
+}
+
+.services-card p {
+    font-family: 'Gilroy-Regular', sans-serif;
+    font-size: 15px;
+    line-height: 150%;
+    text-align: center;
+    color: #AAAAAA;
+    margin-bottom: 39px;
+}
+
+.services-card a {
+    width: 150px;
+    height: 50px;
+    background-color: #F25822;
+    box-shadow: 4px 4px 8px rgba(242, 88, 34, 0.2);
+    border-radius: 50px;
+    padding: 15px 31px;
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-size: 13px;
+    line-height: 150%;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+
+
+.whatwedo-title {
+    margin-bottom: 19px;
+}
+
+.whatwedo-desc {
+    margin-bottom: 79px;
+}
+
+.whatwedo-card {
+    margin-bottom: 47px;
+    column-gap: 29px;
+    width: 570px;
+    height: 134px;
+    padding: 17px 30px;
+}
+
+.whatwedo-card:hover {
+    box-shadow: 15px 25px 60px -5px rgba(0, 0, 0, 0.1);
+}
+
+.whatwedo-card h2 {
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-size: 20px;
+    line-height: 150%;
+    color: #000000;
+    margin-bottom: 8px;
+}
+
+.whatwedo-card p {
+    font-family: 'Gilroy-Regular', sans-serif;
+    font-size: 15px;
+    line-height: 150%;
+    color: #666666;
+}
+
+.funfact-content {
+    width: 1170px;
+    height: 200px;
+    border: 2px solid #EEEEEE;
+    padding: 42px 76px;
+    text-align: center;
+    margin-bottom: 42px;
+}
+
+.funfact-title {
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-size: 70px;
+    line-height: 150%;
+    color: #666666;
+}
+
+.funfact-desc {
+    font-family: 'Gilroy-SemiBold', sans-serif;
+    font-size: 18px;
+    line-height: 150%;
+    color: #666666;
+}
+
+.mailbox-title {
+    margin-bottom: 3px;
+}
+
+.mailbox-desc {
+    margin-bottom: 55px;
+}
+
+.form-input {
+    margin-right: 29px;
+}
+
+.form-input input {
+    width: 200px;
+    height: 50px;
+    padding: 16px 20px;
+    background-color: #EEEEEE;
+    border-radius: 50px;
+    font-family: 'Gilroy-Medium', sans-serif;
+    font-size: 11px;
+    line-height: 150%;
+    color: #666666;
+}
+
+.form-input input[type="url"] {
+    border-top-right-radius: 0%;
+    border-bottom-right-radius: 0%;
+    border-right: 1.5px solid #CCCCCC;
+}
+
+.form-input input[type="email"] {
+    border-top-left-radius: 0%;
+    border-bottom-left-radius: 0%;
+    border-left: 1.5px solid #CCCCCC;
+}
+
+.form-btn input {
+    width: 140px;
+    height: 50px;
+    background-color: #F25822;
+    box-shadow: 4px 4px 8px rgba(242, 88, 34, 0.25);
+    border-radius: 50px;
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-size: 13px;
+    line-height: 150%;
+    color: #FFFDFD;
 }

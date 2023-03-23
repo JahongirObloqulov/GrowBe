@@ -25,6 +25,10 @@
     justify-content: center;
 }
 
+.center0 {
+    margin: 0 auto;
+}
+
 .end {
     justify-content: flex-end;
 }
