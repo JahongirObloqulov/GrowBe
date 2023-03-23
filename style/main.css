@@ -1,0 +1,113 @@
+@font-face {
+    font-family: "Gilroy";
+    src: url(../fonts/Gilroy-Regular.ttf);
+}
+@font-face {
+    font-family: "Gilroy-Medium";
+    src: url(../fonts/Gilroy-Medium.ttf);
+}
+
+@font-face {
+    font-family: "Gilroy-Bold";
+    src: url(../fonts/Gilroy-Bold.ttf);
+}
+
+@font-face {
+    font-family: "Gilroy-SemiBold";
+    src: url(../fonts/Gilroy-SemiBold.ttf);
+}
+
+
+
+.list-link.active {
+    font-family: "Gilroy-SemiBold", sans-serif;
+    color: #F25822;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.list-link {
+    font-family: "Gilroy-Medium", sans-serif;
+    font-size: 14px;
+    color: #000;
+    font-family: 500;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.list-item {
+    padding-right: 30px;
+}
+
+.nav-btn {
+    width: 120px;
+    height: 40px;
+    background-color: #F25822;
+    padding: 12px 27px 13px;
+    font-family: "Gilroy-SemiBold", sans-serif;
+    color: #fff;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 14px;
+    border-radius: 30px;
+}
+
+.hero-title {
+    font-family: "Gilroy-Bold", sans-serif;
+    font-size: 60px;
+    line-height: 70px;
+    font-weight: 700;
+    color: #000000;
+    margin-bottom: 17px;
+}
+
+.hero-text {
+    font-family: "Gilroy-Medium", sans-serif;
+    font-size: 20px;
+    line-height: 23px;
+    color: #888888;
+    font-weight: 500;
+    margin-bottom: 37px;
+}
+
+.hero-content {
+    background-image: url("../img/bloobs.svg");
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+
+.hero-desc {
+    padding-left: 97px;
+}
+
+.start-btn {
+    width: 140px;
+    height: 50px;
+    background-color: #F25822;
+    border-radius: 50px;
+    font-family: "Gilroy-Bold", sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 18px;
+    color: #FFFFFF;
+    padding: 15px 36px 16px 35px;
+    margin-right: 27px;
+}
+
+.watch-btn {
+    width: 135px;
+    height: 30px;
+    font-family: "Gilroy-Bold", sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 18px;
+    color: #AAAAAA;
+}
+
+.watch-btn img {
+    width: 30px;
+    height: 30px;
+    margin-right: 15px;
+}
+
