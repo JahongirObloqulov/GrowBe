@@ -1,9 +1,3 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 .container {
     width: 1469px;
     margin: 0 auto;
@@ -15,7 +9,7 @@
     flex-flow: wrap row;
 }
 
-.row > [class*="col-"] {
+.row>[class*="col-"] {
     display: block;
 }
 

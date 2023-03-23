@@ -1,7 +1,8 @@
 @font-face {
-    font-family: "Gilroy";
+    font-family: "Gilroy-Regular";
     src: url(../fonts/Gilroy-Regular.ttf);
 }
+
 @font-face {
     font-family: "Gilroy-Medium";
     src: url(../fonts/Gilroy-Medium.ttf);
@@ -75,10 +76,7 @@
     background-image: url("../img/bloobs.svg");
     background-repeat: no-repeat;
     background-position: left center;
-}
-
-.hero-desc {
-    padding-left: 97px;
+    background-size: contain;
 }
 
 .start-btn {
@@ -111,9 +109,107 @@
     margin-right: 15px;
 }
 
+#brand {
+    height: 243px;
+}
+
 .brand-list {
     display: flex;
     column-gap: 48px;
+    justify-content: flex-start;
     align-items: center;
-    justify-content: center;
+    padding-top: 50px;
+}
+
+
+#about {
+    background-image: url("../img/element.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #FAFAFA;
+}
+
+.about-title {
+    margin-bottom: 20px;
+}
+
+.about-desc {
+    margin-bottom: 35px;
+}
+
+.about-btn {
+    width: 140px;
+    height: 50px;
+    background-color: #F25822;
+    color: #FFFFFF;
+    padding: 16px 31px 15px;
+    border-radius: 50px;
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-size: 15px;
+    line-height: 18px;
+}
+
+.title {
+    font-family: "Gilroy-Bold", sans-serif;
+    font-size: 45px;
+    line-height: 53px;
+    color: #000000;
+}
+
+.desc {
+    font-family: 'Gilroy-Regular', sans-serif;
+    font-size: 16px;
+    line-height: 150%;
+    color: #666666;
+}
+
+.text {
+    font-family: 'Gilroy-Regular', sans-serif;
+    font-size: 15px;
+    line-height: 150%;
+    color: #666666;
+}
+
+#feature {
+    height: 491px;
+}
+
+.feature-card {
+    width: 310px;
+    height: 226px;
+    margin-right: 60px;
+}
+
+.feature-card:hover {
+    box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.06);
+    width: 370px;
+    height: 291px;
+    padding: 40px 0 25px 30px;
+}
+
+.feature-card img {
+    margin-bottom: 25px;
+}
+
+.feature-title {
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+    margin-bottom: 17px;
+}
+
+.feature-desc {
+    font-family: 'Gilroy-Regular', sans-serif;
+    font-size: 15px;
+    line-height: 150%;
+    color: #666666;
+    margin-bottom: 25px;
+}
+
+.feature-card a {
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-size: 11px;
+    line-height: 150%;
+    color: #000000;
 }
