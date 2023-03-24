@@ -607,6 +607,16 @@
     height: 738px;
 }
 
+.blog-content {
+    width: 100%;
+} 
+
+.blog-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .blog-title {
     margin-bottom: 5px;
     text-align: center;
@@ -618,7 +628,6 @@
 }
 
 .blog-card {
-    width: 770px;
     height: 330px;
 }
 
