@@ -669,6 +669,8 @@
     border-bottom: 1px solid #CCCCCC;;
     padding-bottom: 50px;
     margin-bottom: 19px;
+    align-items: center;
+    justify-content: center;
 }
 
 .info img {
