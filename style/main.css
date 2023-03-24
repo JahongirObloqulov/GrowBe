@@ -598,3 +598,70 @@
 .client-card h3 + p {
     font-size: 13px;
 }
+
+#blog {
+    padding: 90px 0 100px;
+    height: 738px;
+}
+
+.blog-title {
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.blog-desc {
+    margin-bottom: 55px;
+    text-align: center;
+}
+
+.blog-card {
+    width: 770px;
+    height: 330px;
+}
+
+.card-content {
+    padding-left: 30px;
+}
+
+.card-content h3 {
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-size: 24px;
+    line-height: 150%;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.blog-list {
+    column-gap: 35px;
+    font-family: 'Gilroy-Medium', sans-serif;
+    font-size: 11px;
+    line-height: 150%;
+    color: #888888;
+    margin-bottom: 22px;
+}
+
+.card-content p {
+    font-family: 'Gilroy-Medium', sans-serif;
+    font-size: 15px;
+    line-height: 150%;
+    color: #666666;
+    margin-bottom: 26px;
+}
+
+.card-content a {
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-size: 11px;
+    line-height: 150%;
+    color: #F25822;
+}
+
+.blog-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.blog-card:hover {
+    box-shadow: 15px 25px 60px -10px rgba(0, 0, 0, 0.1);
+}
+
