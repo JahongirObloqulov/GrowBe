@@ -21,6 +21,10 @@
     order: 12;
 }
 
+.cgap30 {
+    column-gap: 30;
+}
+
 .center {
     justify-content: center;
 }
