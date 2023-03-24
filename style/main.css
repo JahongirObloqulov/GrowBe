@@ -281,6 +281,9 @@
     padding-top: 107px;
 }
 
+.box {
+    display: flex;
+}
 .whatwedo-title {
     margin-bottom: 19px;
 }
