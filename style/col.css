@@ -6,7 +6,7 @@
 
 .row {
     display: flex;
-    flex-flow: wrap row;
+    flex-wrap: nowrap;
 }
 
 .row>[class*="col-"] {
